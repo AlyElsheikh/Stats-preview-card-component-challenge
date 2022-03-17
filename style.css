@@ -26,7 +26,10 @@ main{
     display: flex;
     flex-direction: row;
     width: 900px;
-    margin: 80px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 }
 
 .left{
@@ -74,6 +77,8 @@ main{
     color: var(--Slightly-transparent-white);
     font-size: 10px;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 
 .right{
